@@ -1,0 +1,17 @@
+{
+  "name": "checkout-mercado-pago-aula",
+  "version": "1.0.0",
+  "description": "Projeto didático de integração com Mercado Pago para aula Full Stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mercadopago": "^2.9.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

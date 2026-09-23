@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizzaria da Chocho — Entrar</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="brand">🍕 Pizzaria da Chocho</a>
+    <nav class="site-nav">
+      <a href="../index.html">Início</a>
+      <a href="salgado.html">Salgados</a>
+      <a href="doce.html">Doces</a>
+      <a href="bebidas.html">Bebidas</a>
+      <a href="acompanhamentos.html">Acompanhamentos</a>
+      <a href="promo.html">Promoções</a>
+      <a href="favoritos.html">Favoritos</a>
+      <a href="contato.html">Contato</a>
+      <a href="login.html" class="active">Entrar</a>
+      <a href="carrinho.html" class="cart-link">Carrinho <span class="cart-badge" id="cart-badge">0</span></a>
+    </nav>
+  </div>
+</header>
+
+<div class="section">
+  <div class="section-heading">
+    <h2>Entrar na conta</h2>
+    <p>Acesse para acompanhar seus pedidos.</p>
+  </div>
+
+  <form class="form-card" id="form-login" novalidate>
+    <div class="form-field">
+      <label for="usuario">Usuário</label>
+      <input type="text" id="usuario" name="usuario" placeholder="Seu usuário">
+      <span class="field-error" id="erro-usuario">Digite seu usuário.</span>
+    </div>
+
+    <div class="form-field">
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" placeholder="Sua senha">
+      <span class="field-error" id="erro-senha">Digite sua senha.</span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Entrar</button>
+
+    <p class="form-message" id="login-mensagem"></p>
+    <p class="login-hint">Para testar: usuário <strong>cliente</strong> e senha <strong>pizza123</strong>.</p>
+  </form>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">Pizzaria da Chocho</p>
+      <p>Rua das Oliveiras, 123, Centro</p>
+      <p>Uberlândia, MG</p>
+    </div>
+    <div>
+      <p>Telefone: (34) 3232-1010</p>
+      <p>contato@pizzariadachocho.com.br</p>
+      <p>Aberta todos os dias, das 18h às 23h30</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

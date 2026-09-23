@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizzaria da Chocho — Acompanhamentos</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="brand">🍕 Pizzaria da Chocho</a>
+    <nav class="site-nav">
+      <a href="../index.html">Início</a>
+      <a href="salgado.html">Salgados</a>
+      <a href="doce.html">Doces</a>
+      <a href="bebidas.html">Bebidas</a>
+      <a href="acompanhamentos.html" class="active">Acompanhamentos</a>
+      <a href="promo.html">Promoções</a>
+      <a href="favoritos.html">Favoritos</a>
+      <a href="contato.html">Contato</a>
+      <a href="login.html">Entrar</a>
+      <a href="carrinho.html" class="cart-link">Carrinho <span class="cart-badge" id="cart-badge">0</span></a>
+    </nav>
+  </div>
+</header>
+
+<div class="section">
+  <div class="section-heading">
+    <h2>Acompanhamentos</h2>
+    <p>Para completar o pedido.</p>
+  </div>
+
+  <div class="menu-grid">
+    <div class="menu-card" data-id="acomp-01" data-nome="Pão de alho" data-preco="14.00">
+      <div class="photo-placeholder">
+        <img src="../img/alho.jpg" alt="Foto: Pão de alho" class="foto-produto" onerror="this.style.display='none';">
+        Foto do Pão de Alho
+      </div>
+      <div class="menu-card-body">
+        <h3>Pão de alho</h3>
+        <p class="desc">Seis unidades, gratinadas com alho e ervas.</p>
+        <div class="menu-card-footer">
+          <span class="price">R$ 14,00</span>
+          <div class="card-actions">
+            <button class="btn-favorito" type="button" aria-label="Favoritar Pão de alho">♡</button>
+            <button class="btn-add-carrinho" type="button">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card" data-id="acomp-02" data-nome="Batata frita" data-preco="18.00">
+      <div class="photo-placeholder">
+        <img src="../img/batata.jpg" alt="Foto: Batata frita" class="foto-produto" onerror="this.style.display='none';">
+        Foto da Batata Frita
+      </div>
+      <div class="menu-card-body">
+        <h3>Batata frita</h3>
+        <p class="desc">Porção crocante com cheddar e bacon opcionais.</p>
+        <div class="menu-card-footer">
+          <span class="price">R$ 18,00</span>
+          <div class="card-actions">
+            <button class="btn-favorito" type="button" aria-label="Favoritar Batata frita">♡</button>
+            <button class="btn-add-carrinho" type="button">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card" data-id="acomp-03" data-nome="Nuggets de frango" data-preco="16.00">
+      <div class="photo-placeholder">
+        <img src="../img/nuggets.jpg" alt="Foto: Nuggets de frango" class="foto-produto" onerror="this.style.display='none';">
+        Foto dos Nuggets
+      </div>
+      <div class="menu-card-body">
+        <h3>Nuggets de frango</h3>
+        <p class="desc">Dez unidades com molho barbecue.</p>
+        <div class="menu-card-footer">
+          <span class="price">R$ 16,00</span>
+          <div class="card-actions">
+            <button class="btn-favorito" type="button" aria-label="Favoritar Nuggets de frango">♡</button>
+            <button class="btn-add-carrinho" type="button">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card" data-id="acomp-04" data-nome="Borda recheada com catupiry" data-preco="10.00">
+      <div class="photo-placeholder">
+        <img src="../img/borda.jpg" alt="Foto: Borda recheada com catupiry" class="foto-produto" onerror="this.style.display='none';">
+        Foto da Borda Recheada
+      </div>
+      <div class="menu-card-body">
+        <h3>Borda recheada com catupiry</h3>
+        <p class="desc">Adicione em qualquer pizza do cardápio.</p>
+        <div class="menu-card-footer">
+          <span class="price">R$ 10,00</span>
+          <div class="card-actions">
+            <button class="btn-favorito" type="button" aria-label="Favoritar Borda recheada com catupiry">♡</button>
+            <button class="btn-add-carrinho" type="button">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card" data-id="acomp-05" data-nome="Salgadinho" data-preco="8.00">
+      <div class="photo-placeholder">
+        <img src="../img/salgadinho.jpg" alt="Foto: salgadinho" class="foto-produto" onerror="this.style.display='none';">
+        Salgadinho
+      </div>
+      <div class="menu-card-body">
+        <h3>Salgadinho</h3>
+        <p class="desc">Coxinha, Pastelzinho, Risole, Quibe.</p>
+        <div class="menu-card-footer">
+          <span class="price">R$ 8,00</span>
+          <div class="card-actions">
+            <button class="btn-favorito" type="button" aria-label="Favoritar Saladinha">♡</button>
+            <button class="btn-add-carrinho" type="button">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card" data-id="acomp-06" data-nome="Saladinha" data-preco="12.00">
+      <div class="photo-placeholder">
+        <img src="../img/salada.jpg" alt="Foto: Saladinha" class="foto-produto" onerror="this.style.display='none';">
+        Foto da Saladinha
+      </div>
+      <div class="menu-card-body">
+        <h3>Saladinha</h3>
+        <p class="desc">Folhas verdes, tomate cereja e molho da casa.</p>
+        <div class="menu-card-footer">
+          <span class="price">R$ 12,00</span>
+          <div class="card-actions">
+            <button class="btn-favorito" type="button" aria-label="Favoritar Saladinha">♡</button>
+            <button class="btn-add-carrinho" type="button">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">Pizzaria da Chocho</p>
+      <p>Rua das Oliveiras, 123, Centro</p>
+      <p>Uberlândia, MG</p>
+    </div>
+    <div>
+      <p>Telefone: (34) 3232-1010</p>
+      <p>contato@pizzariadachocho.com.br</p>
+      <p>Aberta todos os dias, das 18h às 23h30</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
